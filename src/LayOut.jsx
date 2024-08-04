@@ -8,6 +8,8 @@ import { useDispatch } from "react-redux";
 import { setUser } from "./store/authslice";
 import useGetAllJobs from "@/hooks/useGetAllJobs";
 
+//layout
+
 function LayOut({ URL }) {
   useGetAllJobs(URL);
   const dispatch = useDispatch();
