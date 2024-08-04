@@ -52,7 +52,7 @@ shadcnui - for ui
 
 If you would like to discuss a project, collaborate, or have any questions about this project, feel free to reach out to me!
 
-You can contact me through the following channels:  
+You can contact me through the following channels:   
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-contact%20me-green?logo=whatsapp&logoColor=white)](https://wa.link/23a6xv)  
 [![Instagram](https://img.shields.io/badge/Instagram-contact%20me-blue?logo=instagram&logoColor=white)](https://www.instagram.com/i._.4bdull4h?igsh=OHpxeHZ1dHQxOTls)  
 
