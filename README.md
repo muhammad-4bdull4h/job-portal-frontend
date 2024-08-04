@@ -14,6 +14,10 @@
 This is the frontend react app of my full stack job seeking website project with several features for both recruiters and job seekers with saperate account managements and many more.
 
 
+## Live Demo
+You can access the live [demo here](https://job-portal-seek.vercel.app/)
+
+
 ## Table of Contents
 
 - [Features](#Features)

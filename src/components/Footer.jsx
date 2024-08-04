@@ -47,7 +47,7 @@ function Footer() {
                 href="mailto:info@example.com"
                 className="hover:underline text-[#dc2626]"
               >
-                info@example.com
+                abdullah456@gmail.com
               </a>
             </p>
           </div>
@@ -56,28 +56,32 @@ function Footer() {
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+              target="_blank"
+                href="https://www.facebook.com/abdullah.rafique.5891?mibextid=ZbWKwL"
                 className="text-white hover:text-[#dc2626]"
                 aria-label="Facebook"
               >
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
-                href="#"
+              target="_blank"
+                href="https://x.com/M_Abdullah419?t=pPA8rSfnOagO2rf6i6RZyg&s=09"
                 className="text-white hover:text-[#dc2626]"
                 aria-label="Twitter"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="#"
+              target="_blank"
+                href="https://wa.link/23a6xv"
                 className="text-white hover:text-[#dc2626]"
                 aria-label="LinkedIn"
               >
-                <i className="fab fa-linkedin-in"></i>
+                <i class="fa-brands fa-whatsapp"></i>
               </a>
               <a
-                href="#"
+              target="_blank"
+                href="https://www.instagram.com/i._.4bdull4h?igsh=OHpxeHZ1dHQxOTls"
                 className="text-white hover:text-[#dc2626]"
                 aria-label="Instagram"
               >
