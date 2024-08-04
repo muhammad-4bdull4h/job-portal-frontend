@@ -12,24 +12,24 @@ function Browse({ URL }) {
 
   return (
     <div>
-      <div className="max-w-7xl mx-auto my-10">
-        <div className="flex items-center justify-between">
+      <div className="max-w-7xl mx-auto my-10 px-4">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-8">
           <Input
             onChange={(e) => dispatch(setsearchQuery(e.target.value))}
-            className="w-fit"
+            className="w-full md:w-1/3 lg:w-1/4"
             placeholder="Search"
           />
         </div>
-        <h1 className="font-bold my-10 text-xl ">
+        <h1 className="font-bold text-xl mb-8">
           Search results ({queryjobs.length})
         </h1>
         {queryjobs?.length === 0 ? (
-          <p className="text-center">No results found</p>
+          <p className="text-center text-lg">No results found</p>
         ) : (
-          <div className="grid grid-cols-4 gap-4">
-            {queryjobs.map((job) => {
-              return <Card job={job} />;
-            })}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {queryjobs.map((job) => (
+              <Card key={job.id} job={job} />
+            ))}
           </div>
         )}
       </div>
