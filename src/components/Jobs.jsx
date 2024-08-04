@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useDebugValue, useEffect, useState } from "react";
 import FilterCard from "./FilterCard";
 import Card from "./Card";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import useGetQueriedJobs from "@/hooks/useGetQueriedJobs";
+import { setsearchQuery } from "@/store/jobSlice";
 
 function Jobs({ URL }) {
   useGetQueriedJobs(URL);
@@ -12,6 +13,11 @@ function Jobs({ URL }) {
   const toggleFilterCard = () => {
     setIsFilterOpen(!isFilterOpen);
   };
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(setsearchQuery(""));
+  }, []);
 
   return (
     <div className="relative">

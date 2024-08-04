@@ -25,9 +25,6 @@ function Card({ job }) {
             ? "Today"
             : `${timeFunc(job?.createdAt)}days ago`}
         </p>
-        <Button variant="outline" className="rounded-full" size="icon">
-          <Bookmark />
-        </Button>
       </div>
 
       <div className="flex items-center mt-4">
@@ -74,12 +71,9 @@ function Card({ job }) {
         <Button
           onClick={() => navigate(`/job/${job?._id}`)}
           variant="outline"
-          className="w-full md:w-auto"
+          className="w-full md:w-auto "
         >
           Details
-        </Button>
-        <Button className="bg-purple-700 w-full md:w-auto">
-          Save for later
         </Button>
       </div>
     </div>
