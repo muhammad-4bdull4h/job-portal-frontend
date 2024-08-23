@@ -11,7 +11,7 @@
 # job-portal-frontend
 ## Description
 
-This is the frontend react app of my full stack job seeking website project with several features for both recruiters and job seekers with saperate account managements and many more.
+This is the frontend react app of my full stack job seeking website project with several features for both recruiters and job seekers with separate account managements and many more.
 
 
 ## Live Demo
